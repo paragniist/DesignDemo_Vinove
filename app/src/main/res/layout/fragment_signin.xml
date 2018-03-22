@@ -114,7 +114,7 @@
             android:padding="@dimen/sign_in_fragment_drawablePadding"
             android:text="@string/sign_in"
             android:textAllCaps="false"
-            android:textColor="#ffffff"
+            android:textColor="@color/bgWhite"
             android:textSize="@dimen/text_dimen" />
 
 
