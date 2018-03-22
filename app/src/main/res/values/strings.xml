@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DesignTest</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="abc">abc</string>
+    <string name="imageview">imageView</string>
+</resources>

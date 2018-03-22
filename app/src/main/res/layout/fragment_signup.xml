@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/fragmentPadding">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fullName_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/fullNameTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                    android:drawableLeft="@drawable/user_name"
+                    android:drawablePadding="@dimen/sign_in_fragment_drawablePadding"
+                    android:drawableStart="@drawable/user_name"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/full_name"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_dimen" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/userName_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/userNameTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                    android:drawableLeft="@drawable/name"
+                    android:drawablePadding="@dimen/sign_in_fragment_drawablePadding"
+                    android:drawableStart="@drawable/name"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/user_name"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_dimen" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/emailTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                    android:drawableLeft="@drawable/email"
+                    android:drawablePadding="@dimen/sign_in_fragment_drawablePadding"
+                    android:drawableStart="@drawable/email"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="@dimen/text_dimen" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/passwordTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                    android:drawableLeft="@drawable/key1"
+                    android:drawablePadding="@dimen/sign_in_fragment_drawablePadding"
+                    android:drawableStart="@drawable/key1"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_dimen" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/confirm_password_TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/confirm_passwordTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                    android:drawableLeft="@drawable/key1"
+                    android:drawablePadding="@dimen/sign_in_fragment_drawablePadding"
+                    android:drawableStart="@drawable/key1"
+                    android:drawableTint="@color/colorPrimary"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_dimen" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/sign_in_fragment_et_margin"
+                android:background="@drawable/roundbutton"
+                android:padding="@dimen/sign_in_fragment_drawablePadding"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/btnText"
+                android:textSize="@dimen/text_dimen"
+                />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

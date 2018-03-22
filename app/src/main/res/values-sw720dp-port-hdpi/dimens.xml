@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_main_iv_height">320dp</dimen>
+    <dimen name="sign_in_fragment_et_margin">24dp</dimen>
+    <dimen name="sign_in_fragment_drawablePadding">20dp</dimen>
+    <dimen name="text_dimen">16sp</dimen>
+</resources>
